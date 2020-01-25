@@ -30,7 +30,7 @@ PRODUCT_COPY_FILES += \
 
 # Ringtones
 PRODUCT_COPY_FILES += \
-    $(RINGTONE_PATH)/boosted/Rockin.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Rockin.ogg
+    $(RINGTONE_PATH)/boosted/Rockin.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Rockin.ogg \
     $(RINGTONE_PATH)/boosted/Lyon.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Lyon.ogg \
     $(RINGTONE_PATH)/boosted/Highscore.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Highscore.ogg \
     $(RINGTONE_PATH)/boosted/CyanTone.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/CyanTone.ogg \
