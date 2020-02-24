@@ -144,20 +144,9 @@ PRODUCT_PACKAGES += \
     Updater \
     WallpaperPicker
 
-# Accents
+# Overlays
 PRODUCT_PACKAGES += \
-    LineageBlackTheme \
-    LineageDarkTheme \
-    LineageBlackAccent \
-    LineageBlueAccent \
-    LineageBrownAccent \
-    LineageCyanAccent \
-    LineageGreenAccent \
-    LineageOrangeAccent \
-    LineagePinkAccent \
-    LineagePurpleAccent \
-    LineageRedAccent \
-    LineageYellowAccent
+    lightning-overlays
 
 # Themes
 PRODUCT_PACKAGES += \
