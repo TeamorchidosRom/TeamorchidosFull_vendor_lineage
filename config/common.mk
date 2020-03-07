@@ -70,6 +70,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/lineage/config/permissions/org.lineageos.android.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/org.lineageos.android.xml
 
+# This is Lightning Bug!
+PRODUCT_COPY_FILES += \
+    vendor/lineage/config/permissions/privapp-permissions-lightning-product.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-lightning-product.xml
+
+
 # Enforce privapp-permissions whitelist
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.control_privapp_permissions=enforce
