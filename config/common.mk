@@ -1,7 +1,7 @@
 # Allow vendor/extra to override any property by setting it first
 $(call inherit-product-if-exists, vendor/extra/product.mk)
 
-PRODUCT_BRAND ?= LineageOS
+PRODUCT_BRAND ?= LightningFastRom
 
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
 
@@ -226,18 +226,19 @@ ifeq ($(DEVICE_SUPPORT_DJ),true)
         HackersKeyboard
     IS_PERSONAL := Personal
 else
+    IS_PERSONAL := XDA-BUILD
 endif
 
-# Conditionally build in su
-ifneq ($(TARGET_BUILD_VARIANT),user)
 # Root
 PRODUCT_PACKAGES += \
     adb_root
+
+# Conditionally build in su
 ifneq ($(TARGET_BUILD_VARIANT),user)
-ifeq ($(WITH_SU),true)
-PRODUCT_PACKAGES += \
-    su
-endif
+    ifeq ($(WITH_SU),true)
+        PRODUCT_PACKAGES += \
+            su
+    endif
 endif
 
 # Dex preopt
