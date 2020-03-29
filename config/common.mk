@@ -142,7 +142,8 @@ PRODUCT_PACKAGES += \
     Profiles \
     TrebuchetQuickStep \
     Updater \
-    WallpaperPicker
+    WallpaperPicker \
+    Longshot
 
 # Overlays
 PRODUCT_PACKAGES += \
