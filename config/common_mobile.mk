@@ -32,7 +32,8 @@ PRODUCT_PACKAGES += \
     LockClock \
     Profiles \
     TrebuchetQuickStep \
-    Longshot
+    Longshot \
+    WarpShare
 
 # Overlays
 PRODUCT_PACKAGES += \
