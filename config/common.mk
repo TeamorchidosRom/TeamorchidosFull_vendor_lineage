@@ -131,6 +131,10 @@ PRODUCT_PACKAGES += \
     LineageSetupWizard \
     Updater
 
+# LightningFastRom packages  
+PRODUCT_PACKAGES += \
+    LightningWeather
+
 # Themes
 PRODUCT_PACKAGES += \
     LineageThemesStub \
