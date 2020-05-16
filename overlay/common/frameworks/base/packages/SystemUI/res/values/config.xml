@@ -31,11 +31,11 @@
 
     <!-- Tiles native to System UI. Order should match "quick_settings_tiles_default" -->
     <string name="quick_settings_tiles_stock" translatable="false">
-        airplane,cell,wifi,bt,hotspot,usb_tether,cast,location,adb_network,rotation,battery,dnd,powershare,scr,flashlight,nfc,inversion,saver,work,night,livedisplay,ambient_display,caffeine,heads_up,sync,volume_panel,profiles
+        airplane,cell,wifi,bt,hotspot,usb_tether,cast,location,adb_network,rotation,battery,dnd,aod,powershare,scr,flashlight,nfc,inversion,saver,work,night,livedisplay,ambient_display,caffeine,heads_up,sync,volume_panel,profiles
     </string>
     <!-- The tiles to display in QuickSettings in retail mode -->
     <string name="quick_settings_tiles_retail_mode" translatable="false">
-        airplane,cell,wifi,bt,cast,location,rotation,battery,dnd,powershare,scr
+        airplane,cell,wifi,bt,cast,location,rotation,battery,dnd,aod,powershare,scr
     </string>
     <!-- If true, enable the advance anti-falsing classifier on the lockscreen. On some devices it
          does not work well, particularly with noisy touchscreens. Note that disabling it may
