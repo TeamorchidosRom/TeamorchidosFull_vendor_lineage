@@ -5,6 +5,7 @@
 ALARM_PATH := vendor/lineage/prebuilt/common/media/audio/alarms
 NOTIFICATION_PATH := vendor/lineage/prebuilt/common/media/audio/notifications
 RINGTONE_PATH := vendor/lineage/prebuilt/common/media/audio/ringtones
+UI_PATH := vendor/lineage/prebuilt/common/media/audio/effects
 
 # Alarms
 PRODUCT_COPY_FILES += \
@@ -29,5 +30,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(RINGTONE_PATH)/Highscore.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Highscore.ogg \
     $(RINGTONE_PATH)/CyanTone.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/CyanTone.ogg \
-    $(RINGTONE_PATH)/Happy.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Happy.ogg \
-    $(RINGTONE_PATH)/Smooth.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Smooth.ogg
+    $(RINGTONE_PATH)/Happy.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Happy.ogg \
+    $(RINGTONE_PATH)/Smooth.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Smooth.ogg
+
+
+# UI
+PRODUCT_COPY_FILES += \
+    $(UI_PATH)/ChargingStarted.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/ChargingStarted.ogg \
+    $(UI_PATH)/WirelessChargingStarted.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/WirelessChargingStarted.ogg
