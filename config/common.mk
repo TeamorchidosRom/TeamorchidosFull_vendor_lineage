@@ -113,8 +113,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     LineageParts \
     LineageSettingsProvider \
-    LineageSetupWizard \
-    Updater
+    LightningSetupWizard
 
 # LightningFastRom packages  
 PRODUCT_PACKAGES += \
