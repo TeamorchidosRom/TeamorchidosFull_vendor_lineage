@@ -23,3 +23,14 @@ bacon: $(INTERNAL_OTA_PACKAGE_TARGET)
 	$(hide) ln -f $(INTERNAL_OTA_PACKAGE_TARGET) $(LINEAGE_TARGET_PACKAGE)
 	$(hide) $(MD5SUM) $(LINEAGE_TARGET_PACKAGE) | sed "s|$(PRODUCT_OUT)/||" > $(LINEAGE_TARGET_PACKAGE).md5sum
 	@echo "Package Complete: $(LINEAGE_TARGET_PACKAGE)" >&2
+
+	@echo -e ${CL_CYN}""${CL_CYN}
+	@echo -e ${CL_CYN}" _     _       _     _         _             _____         _   ____ "
+	@echo -e ${CL_CYN}"| |   (_) __ _| |__ | |_ _ __ (_)_ __   __ _|  ___|_ _ ___| |_|  _ \ ___  _ __ ___ "
+	@echo -e ${CL_CYN}"| |   | |/ _\` | '_ \| __| '_ \| | '_ \ / _\` | |_ / _\` / __| __| |_) / _ \| '_ \` _ \\"
+	@echo -e ${CL_CYN}"| |___| | (_| | | | | |_| | | | | | | | (_| |  _| (_| \__ \ |_|  _ < (_) | | | | | |"
+	@echo -e ${CL_CYN}"|_____|_|\__, |_| |_|\__|_| |_|_|_| |_|\__, |_|  \__,_|___/\__|_| \_\___/|_| |_| |_|"
+	@echo -e ${CL_CYN}"          |___/                         |___/"
+	@echo -e ${CL_CYN}""${CL_CYN}
+	@echo -e ${CL_CYN}"=================================-Package Completed-================================"${CL_RST}
+	@echo -e ""
