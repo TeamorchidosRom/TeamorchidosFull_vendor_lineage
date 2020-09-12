@@ -24,23 +24,25 @@ PRODUCT_PACKAGES += \
 
 # Lineage packages
 PRODUCT_PACKAGES += \
-    AudioFX \
-    Backgrounds \
-    Eleven \
-    Etar \
-    OpenCamera \
-    Jelly \
-    LockClock \
-    Profiles \
     TrebuchetQuickStep \
-    Longshot
+    OpenCamera \
+#    AudioFX \
+#    Backgrounds \
+#    Eleven \
+#    Etar \
+#    OpenCamera \
+#    Jelly \
+#    LockClock \
+#    Profiles \
+#    TrebuchetQuickStep \
+#    Longshot
 
 # Overlays
-PRODUCT_PACKAGES += \
-    lightning-overlays
+#PRODUCT_PACKAGES += \
+#    lightning-overlays
 
 # Charger
-PRODUCT_PACKAGES += \
+RODUCT_PACKAGES += \
     charger_res_images
 
 # Custom off-mode charger

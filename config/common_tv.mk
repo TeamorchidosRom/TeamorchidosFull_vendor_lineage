@@ -9,8 +9,8 @@ PRODUCT_PACKAGES += \
     LeanbackIME
 
 # Lineage packages
-PRODUCT_PACKAGES += \
-    AppDrawer \
-    LineageCustomizer
+#PRODUCT_PACKAGES += \
+#    AppDrawer \
+#    LineageCustomizer
 
 DEVICE_PACKAGE_OVERLAYS += vendor/lineage/overlay/tv

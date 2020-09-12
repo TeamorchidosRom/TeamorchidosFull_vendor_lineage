@@ -115,19 +115,19 @@ PRODUCT_PACKAGES += \
     Terminal
 
 # Lineage packages
-PRODUCT_PACKAGES += \
-    LineageParts \
-    LineageSettingsProvider \
-    LightningSetupWizard
+#PRODUCT_PACKAGES += \
+#    LineageParts \
+#    LineageSettingsProvider \
+#    LightningSetupWizard
 
 # LightningFastRom packages  
-PRODUCT_PACKAGES += \
+#PRODUCT_PACKAGES += \
     LightningWeather
 
 # Themes
-PRODUCT_PACKAGES += \
-    LineageThemesStub \
-    ThemePicker
+#PRODUCT_PACKAGES += \
+#    LineageThemesStub \
+#    ThemePicker
 
 # Extra tools in Lineage
 PRODUCT_PACKAGES += \
