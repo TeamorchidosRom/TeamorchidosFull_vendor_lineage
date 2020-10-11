@@ -51,6 +51,8 @@ PRODUCT_PACKAGES += \
     libhealthd.lineage
 endif
 
+BOARD_CHARGER_SHOW_PERCENTAGE := true
+
 # Customizations
 PRODUCT_PACKAGES += \
     LineageNavigationBarNoHint
