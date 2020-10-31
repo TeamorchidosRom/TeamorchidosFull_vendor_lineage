@@ -32,6 +32,7 @@ PRODUCT_PACKAGES += \
     Jelly \
     LockClock \
     Profiles \
+    Seedvault \
     TrebuchetQuickStep \
     Longshot
 
