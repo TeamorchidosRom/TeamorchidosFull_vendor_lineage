@@ -177,9 +177,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.storage_manager.enabled=true
 
-# Skiagl 
+# Opengl 
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    	debug.hwui.renderer=skiagl
+    	debug.egl.hw=1
+        debug.sf.hw=1
+        debug.hwui.renderer=opengl
 
 # These packages are excluded from user builds
 PRODUCT_PACKAGES_DEBUG += \
