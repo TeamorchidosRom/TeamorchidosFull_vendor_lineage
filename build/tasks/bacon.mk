@@ -16,7 +16,7 @@
 # -----------------------------------------------------------------
 # Lineage OTA update package
 
-LINEAGE_TARGET_PACKAGE := $(PRODUCT_OUT)/lightning-$(LINEAGE_VERSION).zip
+LINEAGE_TARGET_PACKAGE := $(PRODUCT_OUT)/Orchidos-$(LINEAGE_VERSION).zip
 
 .PHONY: bacon
 bacon: $(INTERNAL_OTA_PACKAGE_TARGET)
@@ -25,12 +25,7 @@ bacon: $(INTERNAL_OTA_PACKAGE_TARGET)
 	@echo "Package Complete: $(LINEAGE_TARGET_PACKAGE)" >&2
 
 	@echo -e ${CL_CYN}""${CL_CYN}
-	@echo -e ${CL_CYN}" _     _       _     _         _             _____         _   ____ "
-	@echo -e ${CL_CYN}"| |   (_) __ _| |__ | |_ _ __ (_)_ __   __ _|  ___|_ _ ___| |_|  _ \ ___  _ __ ___ "
-	@echo -e ${CL_CYN}"| |   | |/ _\` | '_ \| __| '_ \| | '_ \ / _\` | |_ / _\` / __| __| |_) / _ \| '_ \` _ \\"
-	@echo -e ${CL_CYN}"| |___| | (_| | | | | |_| | | | | | | | (_| |  _| (_| \__ \ |_|  _ < (_) | | | | | |"
-	@echo -e ${CL_CYN}"|_____|_|\__, |_| |_|\__|_| |_|_|_| |_|\__, |_|  \__,_|___/\__|_| \_\___/|_| |_| |_|"
-	@echo -e ${CL_CYN}"          |___/                         |___/"
+	@echo -e ${CL_CYN}"Orchidos based on Lightningfastroms
 	@echo -e ${CL_CYN}""${CL_CYN}
 	@echo -e ${CL_CYN}"=================================-Package Completed-================================"${CL_RST}
 	@echo -e ""
