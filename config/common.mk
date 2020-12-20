@@ -120,8 +120,7 @@ PRODUCT_PACKAGES += \
 # Lineage packages
 PRODUCT_PACKAGES += \
     LineageParts \
-    LineageSettingsProvider \
-    LightningSetupWizard
+    LineageSettingsProvider
 
 # Themes
 PRODUCT_PACKAGES += \
