@@ -184,13 +184,6 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 # These packages are excluded from user builds
 PRODUCT_PACKAGES_DEBUG += \
     procmem
-
-ifeq ($(DEVICE_SUPPORT_DJ),true)
-    PRODUCT_PACKAGES += \
-        HackersKeyboard
-    IS_PERSONAL := Personal
-else
-    IS_PERSONAL := XDA-BUILD
 endif
 
 # Root
