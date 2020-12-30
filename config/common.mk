@@ -120,7 +120,8 @@ PRODUCT_PACKAGES += \
 # Lineage packages
 PRODUCT_PACKAGES += \
     LineageParts \
-    LineageSettingsProvider
+    LineageSettingsProvider \
+    LineageCustomizer
 
 # Themes
 PRODUCT_PACKAGES += \
@@ -154,7 +155,11 @@ PRODUCT_PACKAGES += \
     vim \
     wget \
     zip
-
+    
+# Liquid packages
+PRODUCT_PACKAGES += \
+    LiquidLounge
+    
 # Xtended Stuff - Copy to System fonts
 PRODUCT_COPY_FILES += \
     vendor/lineage/prebuilt/fonts/gobold/Gobold.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/Gobold.ttf \
