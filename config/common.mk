@@ -117,6 +117,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Terminal
 
+# FluidCustomisation packages
+PRODUCT_PACKAGES += \
+    FluidCustomisation
+    
 # Lineage packages
 PRODUCT_PACKAGES += \
     LineageParts \
@@ -385,3 +389,4 @@ endif
 
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
 -include vendor/lineage/config/partner_gms.mk
+-include vendor/aeonax/anxcamera/anx-vendor.mk
