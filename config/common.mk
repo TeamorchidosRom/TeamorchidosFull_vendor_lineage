@@ -117,15 +117,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Terminal
 
-# FluidCustomisation packages
-PRODUCT_PACKAGES += \
-    FluidCustomisation
-    
 # Lineage packages
 PRODUCT_PACKAGES += \
     LineageParts \
-    LineageSettingsProvider \
-    LineageCustomizer
+    LineageSettingsProvider
 
 # Themes
 PRODUCT_PACKAGES += \
