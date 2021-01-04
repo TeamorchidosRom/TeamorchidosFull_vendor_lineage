@@ -155,10 +155,6 @@ PRODUCT_PACKAGES += \
     wget \
     zip
     
-# Liquid packages
-PRODUCT_PACKAGES += \
-    LiquidLounge
-    
 # Xtended Stuff - Copy to System fonts
 PRODUCT_COPY_FILES += \
     vendor/lineage/prebuilt/fonts/gobold/Gobold.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/Gobold.ttf \
