@@ -115,7 +115,8 @@ PRODUCT_PACKAGES += \
 
 # AOSP packages
 PRODUCT_PACKAGES += \
-    Terminal
+    Terminal \
+    Extra
 
 # Lineage packages
 PRODUCT_PACKAGES += \
